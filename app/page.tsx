@@ -47,6 +47,30 @@ export default function Home() {
               Dashboard Starten 🚀
             </button>
           </form>
+
+          <div className="mt-8 pt-6 border-t border-slate-700 space-y-3">
+            <div className="flex items-start gap-3">
+              <div className="text-2xl">📊</div>
+              <div>
+                <div className="font-semibold text-sm">1RM Berechnung</div>
+                <div className="text-xs text-slate-400">Präzise Maximalkraft-Berechnung</div>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="text-2xl">⚖️</div>
+              <div>
+                <div className="font-semibold text-sm">Symmetrie-Tracking</div>
+                <div className="text-xs text-slate-400">LSI & Defizit automatisch erkannt</div>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="text-2xl">👥</div>
+              <div>
+                <div className="font-semibold text-sm">Team-Zugang</div>
+                <div className="text-xs text-slate-400">Kostenlos für dein ganzes Team</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
